@@ -23,8 +23,7 @@
 		"start": "yarn dev",
 		"dev": "NODE_ENV=development vuepress dev docs",
 		"build": "NODE_ENV=production BUILD_PATH=\"/\" vuepress build docs",
-		"lint": "eslint .",
-		"format:prettier": "prettier --write ."
+		"lint": "eslint ."
 	},
 	"dependencies": {
 		"@neilsustc/markdown-it-katex": "^1.0.0",
