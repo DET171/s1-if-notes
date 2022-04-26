@@ -1,0 +1,1 @@
+const e={key:"v-03642a46",path:"/s1-web-notes/",title:"S1 Web Development",lang:"en-US",frontmatter:{title:"S1 Web Development"},excerpt:"",headers:[],git:{updatedTime:1650970619e3,contributors:[{name:"DET171",email:"mrgeek484@gmail.com",commits:1}]},filePathRelative:"s1-web-notes/README.md"};export{e as data};
