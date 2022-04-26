@@ -6,7 +6,7 @@ heroAlt: Web Publishing Notes
 heroText: null
 tagline: A collection of infocomm notes
 actions:
-  - text: Introduction →
-    link: /intro.md
+  - text: S1 Web →
+    link: /s1-web-notes/
     type: primary
 ---

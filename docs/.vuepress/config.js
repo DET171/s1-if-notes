@@ -75,7 +75,7 @@ module.exports = {
 		[
 			'@vuepress/plugin-shiki',
 			{
-				theme: 'solarized-dark',
+				theme: 'one-dark-pro',
 			},
 		],
 		// prettier-ignore
@@ -98,16 +98,29 @@ module.exports = {
 		docsDir: 'docs',
 		docsBranch: 'master',
 		logo: 'https://i.imgur.com/gh25FnY_d.webp?maxwidth=760&fidelity=grand',
-		repo: 'EC3-Gang/cpp',
+		repo: 'DET171/s1-if-notes',
 		navbar: [
 			{
 				text: 'Home',
 				link: '/',
 			},
+			{
+				text: 'Notes',
+				children: [
+					'/s1-web-notes/',
+				],
+			},
 		],
 		sidebar: {
-			'/': [
-				
+			'/s1-web-notes/': [
+				{
+					text: 'Secondary 1 Web Publishing',
+					children: [
+						'/s1-web-notes/',
+						'/s1-web-notes/basics.md',
+						'/s1-web-notes/basicontent.md',
+					],
+				},
 			],
 		},
 	},
