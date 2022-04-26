@@ -1,0 +1,7 @@
+node_modules
+.temp
+.cache
+dist
+.replit
+replit.nix
+yarn-error.log
