@@ -3,7 +3,7 @@ const { path } = require('@vuepress/utils');
 module.exports = {
 	theme: path.resolve(__dirname, './theme'),
 	sidebarDepth: 5,
-	base: process.env.BUILD_PATH,
+	base: '/s1-if-notes/',
 	head: [
 		['link', { rel: 'icon', href: 'https://i.imgur.com/gh25FnY_d.png' }],
 		[
